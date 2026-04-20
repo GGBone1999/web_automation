@@ -1,0 +1,5 @@
+selenium>=4.0.0
+pyautogui
+pytest
+pytest-html
+webdriver-manager

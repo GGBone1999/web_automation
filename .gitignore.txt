@@ -1,25 +1,45 @@
-# ĞéÄâ»·¾³
+# è™šæ‹Ÿç¯å¢ƒ
 .venv/
 venv/
+env/
+Lib/
+Scripts/
+pyvenv.cfg
 
-# Python »º´æ
+# Pythonç¼“å­˜
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# IDE ÅäÖÃ
+# IDEé…ç½®
 .idea/
 .vscode/
+*.iml
+*.swp
 
-# ²âÊÔ±¨¸æ¡¢ÈÕÖ¾¡¢Çı¶¯
+# æ‰“åŒ…æ–‡ä»¶
+build/
+dist/
+*.spec
+*.exe
+
+# æ—¥å¿—å’ŒæŠ¥å‘Š
 logs/
-reports/
-drivers/
+report/
+result/
+*.html
+*.log
+allure-results/
+allure-report/
 
-# Ãô¸ĞÅäÖÃ
+# ä¸´æ—¶æµ‹è¯•æ–‡ä»¶
+1.py
+test1.py
+ttt.py
+test.py
+result.html
+
+# æ•æ„Ÿé…ç½®
 .env
-
-.idea/
-__pycache__/
-*.pyc
+config/secret.py

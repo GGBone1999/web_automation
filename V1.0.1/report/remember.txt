@@ -1,0 +1,1 @@
+测试报告目录，存放 pytest-html / allure 生成的报告文件
