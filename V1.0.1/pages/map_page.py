@@ -91,7 +91,7 @@ class MapPage(BasePage):
         print(f"取消建图前数量: {count_before}")
 
         self.click_xpath(self.BTN_NEW_MAP)
-        time.sleep(1)
+        time.sleep(3)
         self.input_xpath(self.INPUT_MAP_NAME, dt_strftime("%Y%m%d%H%M%S"))
         self.click_xpath(self.BTN_MAP_CONFIRM)
         time.sleep(20)
